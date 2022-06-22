@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Amin Azimi",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./lib/server.ts",
+    "test": "jest",
+    "lint": "eslint . --ext .ts"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "node-fetch": "2",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.0.3",
+    "@types/node": "^16.11.12",
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
+    "eslint": "^8.18.0",
+    "nodemon": "^2.0.15"
+  }
+}
