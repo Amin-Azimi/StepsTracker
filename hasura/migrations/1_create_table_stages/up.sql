@@ -1,0 +1,1 @@
+CREATE TABLE "public"."stages"("id" serial NOT NULL, "title" text NOT NULL,"sort" integer NOT NULL, PRIMARY KEY ("id") );

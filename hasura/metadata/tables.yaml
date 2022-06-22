@@ -1,0 +1,6 @@
+- table:
+    schema: public
+    name: stages
+- table:
+    schema: public
+    name: tasks
