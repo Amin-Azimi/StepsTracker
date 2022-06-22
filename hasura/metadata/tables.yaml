@@ -1,6 +1,19 @@
 - table:
     schema: public
     name: stages
+  array_relationships:
+  - name: tasks
+    using:
+      foreign_key_constraint_on:
+        column: stage_id
+        table:
+          schema: public
+          name: tasks
+
 - table:
     schema: public
     name: tasks
+  object_relationships:
+  - name: stages
+    using:
+      foreign_key_constraint_on: stage_id
