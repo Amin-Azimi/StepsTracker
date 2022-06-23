@@ -9,13 +9,16 @@
 ## Install
 
 ```sh
+cd backend
 yarn install
 ```
 
-## Run tests
+## How to run project
 
 ```sh
-yarn run test
+docker-compose up --build
+cd backend
+yarn dev
 ```
 
 ## Author
