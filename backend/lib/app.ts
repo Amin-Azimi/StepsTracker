@@ -20,6 +20,7 @@ class App {
 
   private Routes() {
     this.router.get("/", this.trackerAPI.getCurrentProgress);
+    this.router.post("/", this.trackerAPI.makeProgress);
   }
 
   public listen() {
