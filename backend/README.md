@@ -29,12 +29,12 @@ yarn dev
 Builds and starts the containers for the Postgres database and Hasura Console alongside each other.
 It can take a few seconds after the containers have started until the Database is fully initialized and seeded.
 * Open [http://localhost:8080](http://localhost:8080) for the **Hasura Console**
-* 
+
 ### `yarn dev`
 
 After starting project will be run on port 4000 with below endpoints:
-*GET [http://localhost:4000](http://localhost:4000) : for get all steps
-*POST [http://localhost:4000](http://localhost:4000) : for updating a task staus.You need to pass a taskId as JSON on the body of request.
+* GET [http://localhost:4000](http://localhost:4000) : for get all steps
+* POST [http://localhost:4000](http://localhost:4000) : for updating a task staus.You need to pass a taskId as JSON on the body of request.
 Sample JSON
 ```sh
 {
